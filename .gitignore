@@ -3,3 +3,6 @@
 
 # Ignore data file
 todos.json
+
+coverage.out
+coverage.html
