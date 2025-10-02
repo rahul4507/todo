@@ -1,0 +1,52 @@
+# TODO App
+
+A simple command-line TODO application written in Go to help you manage your tasks efficiently.
+
+## Features
+
+- Add new tasks
+- Mark tasks as completed
+- Delete tasks
+- View all tasks
+
+## Getting Started
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/your-username/todo.git
+    ```
+2. Change into the project directory:
+    ```sh
+    cd todo-app
+    ```
+3. Build the application:
+    ```sh
+    go build -o todo
+    ```
+4. Run the application:
+    ```sh
+    ./todo
+    ```
+
+## Usage
+
+- Add a task:
+    ```sh
+    ./todo add "Buy groceries"
+    ```
+- List all tasks:
+    ```sh
+    ./todo list
+    ```
+- Mark a task as completed:
+    ```sh
+    ./todo complete 1
+    ```
+- Delete a task:
+    ```sh
+    ./todo delete 1
+    ```
+
+## License
+
+This project is licensed under the MIT License.
