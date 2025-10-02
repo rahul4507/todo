@@ -1,2 +1,5 @@
-todo
+# Ignore binary executable in root
+/todo
+
+# Ignore data file
 todos.json
